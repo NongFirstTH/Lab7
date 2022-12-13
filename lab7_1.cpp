@@ -12,7 +12,8 @@ string func1(string x){
 	}
 	return y;
 }
-
+ 
+ 
 string func2(string x){
 	int i = 0, L = x.size();
 	string y = "";

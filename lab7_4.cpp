@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 int main(){
 	
 	string name[] = {"Luffy","Zoro","Sanji","Nami","Naruto","Sakura","All Might","Saitama","Eren","Mikasa"};

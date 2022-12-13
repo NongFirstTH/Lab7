@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 int main(){
 	int i = 0, P[5000], k;
 	while(i < 5000){
