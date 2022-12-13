@@ -34,8 +34,18 @@ string func3(string x){
 }
 
 int main(){
-    cout >> "Input text: "
-    cout >> "Reversed text: "
-    cout >> "Palindrome: "
+	string text;
+    cout << "Input text: " << text;
+	cin >> text;
+    cout << "Reversed text: " << func1(text) << endl;
+	int i =0 , L=text.size();
+	while(i<L){
+		string a = func3(text)=func3(func1(text));
+	if(func3(text)==a){
+		cout << "Palindrome: Yes";
+	}else{
+		cout << "Palindrome: No";
+	}
     return 0;
+	}
 }
